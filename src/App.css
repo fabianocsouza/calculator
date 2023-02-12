@@ -2,8 +2,8 @@
   text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
+.App-container {
+  background: linear-gradient(180deg, #807ece 0%, #8e7ece 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;

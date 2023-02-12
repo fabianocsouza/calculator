@@ -1,13 +1,17 @@
-import React from 'react';
+import { ThemeProvider } from 'styled-components';
+import { theme } from './styles/Theme/themes';
 import './App.css';
+import { Calculator } from './components/Calculator';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
-    </div>
+    <ThemeProvider theme={theme} >
+      <div className="App">
+        <header className="App-container">
+          <Calculator />
+        </header>
+      </div>
+    </ThemeProvider >
   );
 }
 
